@@ -3,16 +3,16 @@ This project uses KD-tree algorithm to create data structure
 
 1 Objectives
   There are a number of key objectives for this assignment:
-   Understand how a real problem can be implemented by dierent data structures and algorithms.
-   Evaluate and contrast the performance of the data structures with respect to different usage scenarios and input data.
+  a.Understand how a real problem can be implemented by different data structures and algorithms.
+  b.Evaluate and contrast the performance of the data structures with respect to different usage scenarios and input data.
   In this assignment, we focus on the nearest neighbour problem.
 
 2 Background
-  Given a set of points, the nearest neighbour problem is about nding the nearest points to a query
-  point. It appears in many dierent applications. One of these is facility search, e.g., querying what
+  Given a set of points, the nearest neighbour problem is about nding the nearest points to a query
+  point. It appears in many different applications. One of these is facility search, e.g., querying what
   are the nearest restaurants or parks on your mobile phone. Another is identifying automatically
   recognising hand written digits on envelopes. In this assignment, we will focus on nearest neighbour
-  problem for a spatial context, implement several well known data structures and algorithms for nding
+  problem for a spatial context, implement several well known data structures and algorithms for nding
   the nearest neighbours and comparing their performance. One of these data structures is the Kd-tree,
   which is a specialised binary tree and described in the following.
 
